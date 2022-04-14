@@ -1,0 +1,55 @@
+
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  a:link {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: $secondary-color;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+
+  > * {
+    padding-left: 30px;
+  }
+
+  p.opener {
+    line-height: 1.2;
+    text-align: left;
+    min-width: 90%;
+    max-width: 95%;
+  }
+
+  p.dale, .martin, .mackey, .bowles {
+    line-height: 1.2;
+  }
+
+  p {
+    width: 55%;
+    min-width: 550px;
+    font-size: large;
+    line-height: 1.5;
+  }
+
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  ul.a {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+}
